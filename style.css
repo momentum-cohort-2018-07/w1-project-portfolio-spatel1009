@@ -170,3 +170,112 @@
     color:blue;
 }
 
+.complete {
+    margin: 0 20px 0 20px;
+}
+.resume-name {
+    border-top: 3px solid navy;
+    text-align: center;
+    padding: 30px 0 10px 0;
+}
+
+.address {
+    border-bottom: 1px solid lightgrey;
+    text-align:center;
+    font-size: .8rem;
+    padding-bottom:10px;
+}
+
+.pro-summary {
+    padding: 10px 0 10px 10px;
+    font-size: 1rem;
+    color: #2aa6bf;
+}
+
+.pro-summary-main {
+    padding: 0 0 10px 10px;
+    border-bottom: 1px solid lightgrey;
+}
+
+.employment-history {
+    padding: 10px 0 5px 10px;
+    font-size: 1rem;
+    color: #2aa6bf;
+}
+
+.hopepsych {
+    font-weight: bold;
+}
+
+.hoperole {
+    font-weight: bold;
+}
+
+
+.allhope {
+    padding-left: 10px;
+    font-size: 1rem;
+}
+
+.employment-hope-details {
+    padding-bottom: 30px;
+    padding-top: 10px;
+}
+
+.allapex {
+    padding-left: 10px;
+    font-size: 1rem;
+}
+
+.apex, .apexrole {
+    font-weight: bold;
+}
+
+.employment-apex-details {
+    padding-bottom: 30px;
+    padding-top: 10px;
+    border-bottom: 1px solid lightgrey;
+}
+
+.education-main {
+    padding: 10px 0 5px 10px;
+    font-size: 1rem;
+    color: #2aa6bf;
+}
+
+.UNCC-main {
+    padding-left: 10px;
+    float:left;
+    width:85%;
+}
+
+.UNCC-year {
+    float:right;
+    width:15%;
+    text-align: right;
+}
+
+.NCSU-main {
+    padding-top: 15px;
+    padding-left: 10px;
+    float:left;
+    width:85%;
+    padding-bottom: 30px;
+}
+
+.ncsu-year {
+    padding-top: 15px;
+    float:right;
+    widows: 15%;
+    text-align: right;
+    padding-bottom: 30px;
+}
+
+.references {
+    clear: both;
+}
+
+.references_main {
+    border-top: 1 px solid lightgrey;
+    padding: 10px 0 10px 10px;
+}
