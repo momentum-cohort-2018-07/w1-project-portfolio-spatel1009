@@ -12,6 +12,7 @@
     font-size: 4rem;
     text-align: center;
     margin: 10px 0 15px 0;
+    border-bottom: 2px solid black;
 }
 
 .main-nav {
@@ -26,6 +27,9 @@
 
 .nav-list li a{
     text-decoration:none;
+}
+.link:visited{
+    color:blue;
 }
 .nav-list li a:hover{
     text-decoration: underline;
@@ -61,9 +65,10 @@
     width: 54%;
     height: 200px;
     float: right;
+    padding-bottom: 15px;
 }
 
-.interest .moreinterests {
+.interests, .moreinterests {
     width:45%;
 }
 
@@ -71,21 +76,97 @@
     margin:25px 0 30px 0;
     font-size: 1.5rem;
     text-align:center;
-    padding-top:20px;
+    padding-top:10px;
 }
 
 .moreinterests {
     text-align: center;
 }
 
-.footer-main {
+.footer {
     clear:both;
     text-align:center;
-    padding:40px
+    padding:40px;
+    font-size:1.5rem;
+    border-top: solid black 2px;
+    margin-top:10px;
+}
+
+.fa{
+    text-decoration:none;
+}
+
+.fa:visited{
+    color:blue;
+}
+
+.fa:hover {
+    opacity: .7;
 }
 
 .social {
     display:inline;
     margin: 30px 80px 40px 80px;
+}
+
+.lazyphoto {
+    width: 47%;
+    padding: 10px;
+    float:left;
+}
+
+.lazyriverheader {
+    text-align: center;
+    font-size: 1.2rem;
+    padding-bottom:10px
+
+}
+
+.bothlinks {
+    text-align:center;
+    padding-bottom: 20px
+}
+
+.lazylink1{
+    padding-right:40px;
+    border-right: 1px solid black;
+}
+
+.lazylink2 {
+    padding-left: 40px;
+}
+
+.second-proj {
+    clear:both;
+    padding: 10px;
+}
+
+.dogphoto {
+    width:47%;
+    float:right;
+}
+
+.dogsheader{
+    text-align:center;
+    font-size: 1.2rem;
+    padding-bottom:10px;
+}
+
+.bothlinks2 {
+    text-align:center;
+    padding-bottom: 20px;
+}
+
+.doglink1 {
+    padding-right:40px;
+    border-right: 1px solid black;
+}
+
+.doglink2 {
+    padding-left: 40px;
+}
+
+.alllinks:visited {
+    color:blue;
 }
 
