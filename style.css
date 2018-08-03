@@ -2,4 +2,90 @@
     box-sizing: border-box;
     margin: 0;
     padding:0;
+    max-width: 100%;
   }
+
+.complete {
+    font-family: Geneva, Arial, sans-serif;
+}
+.home-header {
+    font-size: 4rem;
+    text-align: center;
+    margin: 10px 0 15px 0;
+}
+
+.main-nav {
+    margin: 30px 20px 40px 20px;
+    text-align: center;
+}
+
+.nav-list li{
+    display: inline;
+    margin: 0 40px;
+}
+
+.nav-list li a{
+    text-decoration:none;
+}
+.nav-list li a:hover{
+    text-decoration: underline;
+}
+
+.aboutme {
+    vertical-align: top;
+}
+
+.me{
+    padding-bottom: 30px;
+    font-size: 1.5rem;
+    text-align: center;
+    padding-top:50px;
+}
+.home-photo {
+    border-radius: 50%;
+    float: left;
+    padding: 20px;
+}
+
+.moreme {
+    text-align:center;
+   
+}
+
+.div-interests{
+    clear: both;
+    padding:0 10px 0 10px;
+}
+
+.gif {
+    width: 54%;
+    height: 200px;
+    float: right;
+}
+
+.interest .moreinterests {
+    width:45%;
+}
+
+.interests {
+    margin:25px 0 30px 0;
+    font-size: 1.5rem;
+    text-align:center;
+    padding-top:20px;
+}
+
+.moreinterests {
+    text-align: center;
+}
+
+.footer-main {
+    clear:both;
+    text-align:center;
+    padding:40px
+}
+
+.social {
+    display:inline;
+    margin: 30px 80px 40px 80px;
+}
+
