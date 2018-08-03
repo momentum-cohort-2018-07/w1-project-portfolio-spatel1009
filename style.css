@@ -7,14 +7,25 @@
 
 .complete {
     font-family: Geneva, Arial, sans-serif;
+    color:#0C1B33;
+    background-color:#22AAA1;
 }
+
+.complete1 {
+    font-family: Geneva, Arial, sans-serif;
+    background-color: #EEE0CB;
+}
+
 .home-header {
     font-size: 4rem;
     text-align: center;
     margin: 10px 0 15px 0;
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid #B7FDFE;
 }
-
+.same-header {
+    background-color:#136F63;
+    color:#B7FDFE;
+}
 .main-nav {
     margin: 30px 20px 40px 20px;
     text-align: center;
@@ -28,8 +39,12 @@
 .nav-list li a{
     text-decoration:none;
 }
+
+.link {
+    color:black;
+}
 .link:visited{
-    color:blue;
+    color:black;
 }
 .nav-list li a:hover{
     text-decoration: underline;
@@ -88,15 +103,19 @@
     text-align:center;
     padding:40px;
     font-size:1.5rem;
-    border-top: solid black 2px;
+    border-top: solid #B7FDFE 2px;
     margin-top:10px;
+    background-color: #136F63;
 }
 
 .fa{
     text-decoration:none;
+    color:#B7FDFE;
+    background-color: #136F63;
 }
 
 .fa:visited{
+    color:#B7FDFE
     color:blue;
 }
 
@@ -124,7 +143,7 @@
 
 .bothlinks {
     text-align:center;
-    padding-bottom: 20px
+    padding-bottom: 20px;
 }
 
 .lazylink1{
@@ -144,6 +163,7 @@
 .dogphoto {
     width:47%;
     float:right;
+    padding-bottom: 20px;
 }
 
 .dogsheader{
@@ -158,16 +178,20 @@
 }
 
 .doglink1 {
-    padding-right:40px;
+    padding-right: 5%;
     border-right: 1px solid black;
 }
 
 .doglink2 {
-    padding-left: 40px;
+    padding-left: 5%;
+}
+
+.alllinks {
+    color:black;
 }
 
 .alllinks:visited {
-    color:blue;
+    color:black;
 }
 
 .complete {
@@ -246,12 +270,12 @@
 .UNCC-main {
     padding-left: 10px;
     float:left;
-    width:85%;
+    width:80%;
 }
 
 .UNCC-year {
     float:right;
-    width:15%;
+    width:20%;
     text-align: right;
 }
 
@@ -259,23 +283,27 @@
     padding-top: 15px;
     padding-left: 10px;
     float:left;
-    width:85%;
+    width:80%;
     padding-bottom: 30px;
 }
 
 .ncsu-year {
     padding-top: 15px;
     float:right;
-    widows: 15%;
+    width: 20%;
     text-align: right;
     padding-bottom: 30px;
 }
 
-.references {
-    clear: both;
+@media screen and (min-width: 1000px){
+    .dogmain {
+        padding-top:5%;
+    }
+    .lazyrivermain{
+        padding-top:5%;
+    }
 }
 
-.references_main {
-    border-top: 1 px solid lightgrey;
-    padding: 10px 0 10px 10px;
+.footer-list {
+    background-color: #136F63;
 }
