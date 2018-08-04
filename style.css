@@ -32,16 +32,13 @@
 }
 
 .nav-list li{
-    display: inline;
-    margin: 0 40px;
-}
-
-.nav-list li a{
-    text-decoration:none;
+    display:block;
+    margin: 0;
 }
 
 .link {
     color:black;
+    text-decoration:none;
 }
 .link:visited{
     color:black;
@@ -58,33 +55,29 @@
     padding-bottom: 30px;
     font-size: 1.5rem;
     text-align: center;
-    padding-top:50px;
+    padding-top:35px;
 }
 .home-photo {
     border-radius: 50%;
-    float: left;
-    padding: 20px;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 
 .moreme {
     text-align:center;
-   
+    padding-bottom: 20px;
 }
 
 .div-interests{
-    clear: both;
     padding:0 10px 0 10px;
 }
 
 .gif {
-    width: 54%;
-    height: 200px;
-    float: right;
-    padding-bottom: 15px;
-}
-
-.interests, .moreinterests {
-    width:45%;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .interests {
@@ -96,6 +89,7 @@
 
 .moreinterests {
     text-align: center;
+    padding-bottom: 20px;
 }
 
 .footer {
@@ -108,6 +102,10 @@
     background-color: #136F63;
 }
 
+.footer-list {
+    background-color: #136F63;
+}
+
 .fa{
     text-decoration:none;
     color:#B7FDFE;
@@ -115,8 +113,7 @@
 }
 
 .fa:visited{
-    color:#B7FDFE
-    color:blue;
+    color:#B7FDFE;
 }
 
 .fa:hover {
@@ -125,13 +122,14 @@
 
 .social {
     display:inline;
-    margin: 30px 80px 40px 80px;
 }
 
 .lazyphoto {
-    width: 47%;
-    padding: 10px;
-    float:left;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding-bottom: 15px;
 }
 
 .lazyriverheader {
@@ -161,9 +159,11 @@
 }
 
 .dogphoto {
-    width:47%;
-    float:right;
-    padding-bottom: 20px;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding-bottom:15px;
 }
 
 .dogsheader{
@@ -295,15 +295,42 @@
     padding-bottom: 30px;
 }
 
-@media screen and (min-width: 1000px){
-    .dogmain {
-        padding-top:5%;
+@media screen and (min-width: 672px){
+    .home-photo{
+        float:left;
+        padding-right: 20px;
+        width: 40%;
+        height: 45%;
     }
-    .lazyrivermain{
-        padding-top:5%;
+    .div-interests{
+        clear:both;
     }
+    .gif{
+        float:right;
+        padding-left: 20px;
+        width: 45%;
+        height: 40%;
+    }
+    .social {
+        display:inline;
+        margin: 30px 80px 40px 80px;
+    }
+    .nav-list li {
+        display: inline;
+        margin: 0 40px;
+        width: 100%;
+    }
+    .lazyphoto {
+        float:left;
+        width: 45%;
+        padding: 10px;
+    }
+    .dogphoto {
+        float:right;
+        width:47%;
+        padding-bottom: 20px;
+        padding-left: 15px;
+    }
+
 }
 
-.footer-list {
-    background-color: #136F63;
-}
