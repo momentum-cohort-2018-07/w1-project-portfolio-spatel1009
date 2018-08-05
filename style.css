@@ -14,6 +14,7 @@
 .complete1 {
     font-family: Geneva, Arial, sans-serif;
     background-color: #EEE0CB;
+    margin: 0 15px 0 15px;
 }
 
 .home-header {
@@ -198,13 +199,13 @@
     margin: 0 20px 0 20px;
 }
 .resume-name {
-    border-top: 3px solid navy;
+    border-top: 3px solid #829399;
     text-align: center;
     padding: 30px 0 10px 0;
 }
 
 .address {
-    border-bottom: 1px solid lightgrey;
+    border-bottom: 1px solid #829399;
     text-align:center;
     font-size: .8rem;
     padding-bottom:10px;
@@ -218,7 +219,7 @@
 
 .pro-summary-main {
     padding: 0 0 10px 10px;
-    border-bottom: 1px solid lightgrey;
+    border-bottom: 1px solid #829399;
 }
 
 .employment-history {
@@ -258,7 +259,7 @@
 .employment-apex-details {
     padding-bottom: 30px;
     padding-top: 10px;
-    border-bottom: 1px solid lightgrey;
+    border-bottom: 1px solid #829399;
 }
 
 .education-main {
@@ -331,6 +332,19 @@
         padding-bottom: 20px;
         padding-left: 15px;
     }
-
+}
+@media screen and (max-width: 456px){
+    .NCSU-main {
+        width: 50%;
+    }
+    .ncsu-year {
+        width: 40%;
+    }
+    .UNCC-main {
+        width:50%;
+    }
+    .UNCC-year {
+        width: 40%;
+    }
 }
 
