@@ -1,0 +1,350 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+    max-width: 100%;
+  }
+
+.complete {
+    font-family: Geneva, Arial, sans-serif;
+    color:#0C1B33;
+    background-color:#22AAA1;
+}
+
+.complete1 {
+    font-family: Geneva, Arial, sans-serif;
+    background-color: #EEE0CB;
+    margin: 0 15px 0 15px;
+}
+
+.home-header {
+    font-size: 4rem;
+    text-align: center;
+    margin: 10px 0 15px 0;
+    border-bottom: 2px solid #B7FDFE;
+}
+.same-header {
+    background-color:#136F63;
+    color:#B7FDFE;
+}
+.main-nav {
+    margin: 30px 20px 40px 20px;
+    text-align: center;
+}
+
+.nav-list li{
+    display:block;
+    margin: 0;
+}
+
+.link {
+    color:black;
+    text-decoration:none;
+}
+.link:visited{
+    color:black;
+}
+.nav-list li a:hover{
+    text-decoration: underline;
+}
+
+.aboutme {
+    vertical-align: top;
+}
+
+.me{
+    padding-bottom: 30px;
+    font-size: 1.5rem;
+    text-align: center;
+    padding-top:35px;
+}
+.home-photo {
+    border-radius: 50%;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.moreme {
+    text-align:center;
+    padding-bottom: 20px;
+}
+
+.div-interests{
+    padding:0 10px 0 10px;
+}
+
+.gif {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.interests {
+    margin:25px 0 30px 0;
+    font-size: 1.5rem;
+    text-align:center;
+    padding-top:10px;
+}
+
+.moreinterests {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.footer {
+    clear:both;
+    text-align:center;
+    padding:40px;
+    font-size:1.5rem;
+    border-top: solid #B7FDFE 2px;
+    margin-top:10px;
+    background-color: #136F63;
+}
+
+.footer-list {
+    background-color: #136F63;
+}
+
+.fa{
+    text-decoration:none;
+    color:#B7FDFE;
+    background-color: #136F63;
+}
+
+.fa:visited{
+    color:#B7FDFE;
+}
+
+.fa:hover {
+    opacity: .7;
+}
+
+.social {
+    display:inline;
+}
+
+.lazyphoto {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding-bottom: 15px;
+}
+
+.lazyriverheader {
+    text-align: center;
+    font-size: 1.2rem;
+    padding-bottom:10px
+
+}
+
+.bothlinks {
+    text-align:center;
+    padding-bottom: 20px;
+}
+
+.lazylink1{
+    padding-right:40px;
+    border-right: 1px solid black;
+}
+
+.lazylink2 {
+    padding-left: 40px;
+}
+
+.second-proj {
+    clear:both;
+    padding: 10px;
+}
+
+.dogphoto {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding-bottom:15px;
+}
+
+.dogsheader{
+    text-align:center;
+    font-size: 1.2rem;
+    padding-bottom:10px;
+}
+
+.bothlinks2 {
+    text-align:center;
+    padding-bottom: 20px;
+}
+
+.doglink1 {
+    padding-right: 5%;
+    border-right: 1px solid black;
+}
+
+.doglink2 {
+    padding-left: 5%;
+}
+
+.alllinks {
+    color:black;
+}
+
+.alllinks:visited {
+    color:black;
+}
+
+.complete {
+    margin: 0 20px 0 20px;
+}
+.resume-name {
+    border-top: 3px solid #829399;
+    text-align: center;
+    padding: 30px 0 10px 0;
+}
+
+.address {
+    border-bottom: 1px solid #829399;
+    text-align:center;
+    font-size: .8rem;
+    padding-bottom:10px;
+}
+
+.pro-summary {
+    padding: 10px 0 10px 10px;
+    font-size: 1rem;
+    color: #2aa6bf;
+}
+
+.pro-summary-main {
+    padding: 0 0 10px 10px;
+    border-bottom: 1px solid #829399;
+}
+
+.employment-history {
+    padding: 10px 0 5px 10px;
+    font-size: 1rem;
+    color: #2aa6bf;
+}
+
+.hopepsych {
+    font-weight: bold;
+}
+
+.hoperole {
+    font-weight: bold;
+}
+
+
+.allhope {
+    padding-left: 10px;
+    font-size: 1rem;
+}
+
+.employment-hope-details {
+    padding-bottom: 30px;
+    padding-top: 10px;
+}
+
+.allapex {
+    padding-left: 10px;
+    font-size: 1rem;
+}
+
+.apex, .apexrole {
+    font-weight: bold;
+}
+
+.employment-apex-details {
+    padding-bottom: 30px;
+    padding-top: 10px;
+    border-bottom: 1px solid #829399;
+}
+
+.education-main {
+    padding: 10px 0 5px 10px;
+    font-size: 1rem;
+    color: #2aa6bf;
+}
+
+.UNCC-main {
+    padding-left: 10px;
+    float:left;
+    width:80%;
+}
+
+.UNCC-year {
+    float:right;
+    width:20%;
+    text-align: right;
+}
+
+.NCSU-main {
+    padding-top: 15px;
+    padding-left: 10px;
+    float:left;
+    width:80%;
+    padding-bottom: 30px;
+}
+
+.ncsu-year {
+    padding-top: 15px;
+    float:right;
+    width: 20%;
+    text-align: right;
+    padding-bottom: 30px;
+}
+
+@media screen and (min-width: 672px){
+    .home-photo{
+        float:left;
+        padding-right: 20px;
+        width: 40%;
+        height: 45%;
+    }
+    .div-interests{
+        clear:both;
+    }
+    .gif{
+        float:right;
+        padding-left: 20px;
+        width: 45%;
+        height: 40%;
+    }
+    .social {
+        display:inline;
+        margin: 30px 80px 40px 80px;
+    }
+    .nav-list li {
+        display: inline;
+        margin: 0 40px;
+        width: 100%;
+    }
+    .lazyphoto {
+        float:left;
+        width: 45%;
+        padding: 10px;
+    }
+    .dogphoto {
+        float:right;
+        width:47%;
+        padding-bottom: 20px;
+        padding-left: 15px;
+    }
+}
+@media screen and (max-width: 456px){
+    .NCSU-main {
+        width: 50%;
+    }
+    .ncsu-year {
+        width: 40%;
+    }
+    .UNCC-main {
+        width:50%;
+    }
+    .UNCC-year {
+        width: 40%;
+    }
+}
+
